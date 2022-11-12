@@ -1,0 +1,17 @@
+Sudo –I 
+adduser examuser
+sudo –i
+groupadd examgroup
+groupadd strypes
+cat /etc/group
+usermod -a -G examgroup examuser
+usermod -a -G strypes examuser
+cat /etc/group
+su tedo
+cp /etc/passwd pass.txt
+ls –l
+ls -l pass.txt
+sudo chown examuser:strypes pass.txt
+ls -l pass.txt
+sudo chmod 752 pass.txt
+sudo chmod u=rwx,g=rx,o=w pass.txt

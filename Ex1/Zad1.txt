@@ -1,0 +1,23 @@
+Mkdir Exam
+Cd Exam
+git clone https://github.com/tedo1111/Exam-Strypes-Tedo.git
+cd Exam-Strypes-Tedo
+mkdir "Linux Exam"
+cd "Linux Exam"
+mkdir Files Strypes
+cd Strypes
+mkdir Day01 Day02
+cd ../Files
+touch doc{1..5}.txt report{1..5}.doc results{1..5}.doc statistics{1..2}.xls
+cp *.txt ../Strypes/Day01
+mv *.doc ../Strypes/Day02
+ls
+mv statistics1.xls .statistics.xls
+rm -rf ../Strypes/Day02
+
+
+
+
+
+
+(Reshavah zadachite edna po edna i zatova i tuk sum sazdal novo Git Repo. No i v Poslednata sashto)
