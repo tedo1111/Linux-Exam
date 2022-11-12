@@ -1,0 +1,24 @@
+git clone https://github.com/tedo1111/Linux-Exam.git
+cd Linux-Exam
+mkdir Ex1 Еx2 Ex3 Ex4
+cd Ex1
+cat > Zad1.txt
+cd ..
+cd Ex2
+cat > Zad2.txt
+cd ..
+cd Ex3
+cat > Zad3.txt
+cd .. 
+git status
+git add –all
+git status
+git commit -m "Zad1,Zad2,Zad3"
+git push 
+cd Ex4
+cat > Zad4.txt
+cd ..
+git status
+git add –all
+git commit –m “Zad4.txt”
+git push
